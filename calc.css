@@ -1,3 +1,7 @@
+body{
+	background: lightgreen;
+}
+
 #output{
 	height: 45px;
 	background-color: black;
@@ -7,20 +11,23 @@
 	padding:5px;
 	text-align: right;
 	margin-bottom:25px;
+	overflow: hidden;
 }
 
 #mycalcu{
 	width: 350px;
 	background-color:dimgray;
-	height: 350px;
+	height: 400px;
 	padding: 25px;
 	margin: auto;
 }
 
 .cbutton{
-	font-size: 2em;
-	width: 45px;
+	font-size: 1.5em;
+	width: 35px;
 	margin: 2px;
+	margin-bottom: 15px;
+	margin-left: 19px;
 	padding: 4px;
 }
 #container{

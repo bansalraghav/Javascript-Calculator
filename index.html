@@ -3,15 +3,43 @@
 <head>
 	<title>TEST</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="calc.css">
 </head>
 <body>
-	<div class="btn-group" role="group">
-		<button class="btn btn-primary">Click Me</button>
-		<button class="btn btn-primary">Click Me</button>
-		<button class="btn btn-primary">Click Me</button>
+	<div id="container">
+		<div id="mycalcu">
+			<div class="col-xs-12">
+				<div id="output"></div>
+					<div class="col-xs-12">
+						<button class="btn btn-primary cbutton">1</button>
+						<button class="btn btn-primary cbutton">2</button>
+						<button class="btn btn-primary cbutton">3</button>
+						<button class="btn btn-primary cbutton">+</button>
+						<button class="btn btn-primary cbutton">CE</button>
+					</div>
+					<div class="col-xs-12">
+						<button class="btn btn-primary cbutton">4</button>
+						<button class="btn btn-primary cbutton">5</button>
+						<button class="btn btn-primary cbutton">6</button>
+						<button class="btn btn-primary cbutton">-</button>
+					</div>
+					<div class="col-xs-12">
+						<button class="btn btn-primary cbutton">7</button>
+						<button class="btn btn-primary cbutton">8</button>
+						<button class="btn btn-primary cbutton">9</button>
+						<button class="btn btn-primary cbutton">*</button>
+					</div>
+					<div class="col-xs-12">
+						<button class="btn btn-primary cbutton">.</button>
+						<button class="btn btn-primary cbutton">0</button>
+						<button class="btn btn-primary cbutton">=</button>
+						<button class="btn btn-primary cbutton">/</button>
+					</div>
+			</div>
+		</div>
 	</div>
-	<button class="btn btn-danger">Click Me</button>
-	<button class="btn btn-warning">Click Me</button>
-	<button class="btn btn-info">Click Me</button>
+
+<script type="text/javascript" src="calc.js"></script>
 </body>
-</html>
+</html>	
